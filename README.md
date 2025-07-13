@@ -82,4 +82,4 @@ http://localhost:3000/I/want/title/?address=google.com&address=www.dawn.com/even
 ## 🙋‍♂️ Author
 
 **Naqi Azam**
-[LinkedIn](https://www.linkedin.com/in/naqi-azam) | [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/naqi-azam-57002763) | [GitHub](https://github.com/NaqiNick)
