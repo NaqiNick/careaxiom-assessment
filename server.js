@@ -4,7 +4,8 @@ const handleTitleRequest = require('./routes/titleRoute');
 
 const server = http.createServer((req, res) => {
   const path = parse(req.url).pathname;
-  if (path === '/I/want/title') {
+  const normalizedPath = path.replace(/\/+$/, '');
+  if (normalizedPath === '/I/want/title') {
     handleTitleRequest(req, res);
   } else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
